@@ -1,0 +1,25 @@
+{
+  "name": "kershless-next",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "postinstall": "npm run getcontent",
+    "getcontent": "babel-node helpers/getcontent.js install"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "contentful": "^6.1.1",
+    "next": "^5.1.0",
+    "npm": "^6.1.0",
+    "react": "^16.3.0",
+    "react-dom": "^16.3.0"
+  }
+}
